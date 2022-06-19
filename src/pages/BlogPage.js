@@ -16,6 +16,8 @@ function BlogPage(){
   return (
     <div>
       <h1>Our news</h1>
+      <Link to="/posts/new">Add new post</Link>
+
       {posts.map(post=>(
         // при клике на ссылку переходим на страничку с id поста
         <Link key={post.id} to={`/posts/${post.id}`}>

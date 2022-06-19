@@ -19,5 +19,10 @@
 # Переадресация (Navigate)
 
 1`<Route path="about" element={<AboutPage />} />`
-2`<Route path="about-us" element={<Navigate to="/about" replace/>} />`
-вторая строка это переадресация на первую
+2`<Route path="about-us" element={<Navigate to="/about" replace/>} />` вторая
+строка это переадресация на первую
+
+# Авторизация пользователя
+
+- _RequireAuth.js_ проверка на авторизацию/переадресация
+- _LoginPage.js_ страничка авторизации
