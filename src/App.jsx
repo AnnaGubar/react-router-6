@@ -12,7 +12,7 @@ import LoginPage from './pages/LoginPage';
 import RequireAuth from './hoc/RequireAuth';
 import {AuthProvider} from './hoc/AuthProvider';
 
-import s from 'App.css';
+import 'App.css';
 
 export const App = () => {
   return (
